@@ -1,0 +1,27 @@
+
+table {
+    border-top: thick dotted purple;
+    border-bottom: medium dashed green;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    border-spacing: 10px;
+}
+th {
+    padding: 10px;
+    text-align: center;
+    border: thick solid blue;
+}
+
+.cm1 {
+    background-color: rgb(250, 3, 250);
+}
+.cm2 {
+    background-color: #00FF00;
+}    
+.cm3 {
+    background-color: hsl(0, 100%, 25%);
+}
+.cm4 {
+    background-color: rgb(4, 200, 240);
+}
