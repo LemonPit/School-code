@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="table with css" content="Best site ever">
+        <title>Homepage</title>
+        
+    </head>
+    <body>
+        <form id="myForm">
+            <input type="text" title="A UCID is a sequence of letters followed by zero to three digits" id="ucid" name="ucid" placeholder="Enter UCID">
+            <label for="ucid">UCID</label>
+            <div id="submitB">
+                <input type="submit">
+            </div>
+            
+        </form>   
+        <dialog>
+            <p>YAY YOU GOT THE UCID</p>
+            <button autofocus>Close</button>
+        </dialog>
+        <script>
+            
+            
+            function checkForm(event) {
+                let tosWidget = document.querySelector("#ucid").value;
+                if (tosWidget==="yc42") {
+                       dialog.showModal(); 
+                       alert("FUCK YOU");
+                }
+                else {
+                    
+                }
+                
+
+            }
+            const dialog = document.querySelector("dialog");
+            const closeButton = document.querySelector("dialog button");
+
+            closeButton.addEventListener("click", () => {
+                dialog.close();
+            });
+            let tosForm = document.querySelector("#myForm");
+            tosForm.addEventListener("submit", checkForm);
+            dialog.showModal();
+
+        </script>
+
+    </body>
+
+
+
+
+</html>

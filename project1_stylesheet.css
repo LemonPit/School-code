@@ -1,0 +1,106 @@
+body {
+	background-image: url('doc_office.jpg');	
+}
+form{
+	border: 5px solid lightblue;
+	background: rgba(255,255,255,0.5);;
+	position: absolute;
+	margin: auto;
+	width: 650px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	padding: 15px 10px;
+	text-align: left;
+	color: black;
+}
+
+form h2 {
+	text-align: center;
+}
+
+input {
+	padding: 5px 10px;
+	width: 300px;
+}
+
+.radioIn {
+	width: 10px;
+	padding: 5px 10px;
+}
+label {
+	width:300px;
+	display: inline-block;
+}
+.rLabel {
+	display: inline;
+	font-size: 10px;
+	width: 300px;
+}
+.cLabel {
+	display: inline;
+	font-size: 10px;
+	width: 300px;
+}
+.leftLabel {
+	width: 200px;
+	display: inline-block;
+}
+.rightLabel {
+	width: 10px;
+	display: inline-block;
+}
+
+#emailLabel{ 
+	display: inline-block;
+	width: 188px;
+}
+div {
+	padding: 5px;
+	font-size: 15px;	
+	width: 600px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.sr {
+	font-size: 10;
+	width: 60px;
+	height: 25px;
+}
+#checkLabel {
+	display: inline;
+}
+#check1 {
+	float: center;
+	width: 150px;
+	padding: 0px;
+}
+#checkDiv{
+	width: 620px;
+}
+
+
+#submitreset {
+	width: 190px;
+	float: right;
+}
+
+#selectDiv {
+	width: 450px;
+}
+#radioDiv {
+	width: 600px;
+}
+
+#select1  {
+	color: blue;
+	float: right;
+}
+.checkB {
+	width: 10px;
+	padding: 5px 10px;
+}	
+#checkboxDiv {
+	width: 600px;
+}

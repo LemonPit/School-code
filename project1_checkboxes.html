@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="Project 1 form" content="Receptionist Form">
+		<title>P1-Form</title>
+		<link rel="stylesheet" href="project1_stylesheet.css">	
+	</head>
+	<body>
+		<form>
+			<h2>Healing Helpers Medical Group<h2>
+
+			<div>
+				<label for="inp1" class="leftLabel">Receptionist's First Name:</label>
+				<input type="text" name="inp1" id="inp1" placeholder="Example: Jane"> 
+				<label for="inp1" class="rightLabel">Required</label>
+			</div>
+			
+			<div>
+				<label for="inp2" class="leftLabel">Receptionist's Last Name:</label>
+				<input type="text" name="inp2" id="inp2" placeholder="Example: Doe">
+				<label for="inp2" class="rightLabel">Required</label>
+			</div>
+			<div>
+				<label for="inp3" class="leftLabel">Receptionist's Password:</label>
+				<input type="password" name="inp3" id="inp3" placeholder="Example: CheeseBurg251!">
+				<label for="inp3" class="rightLabel">Required</label>
+			</div>
+			<div>
+				<label for="inp4" class="leftLabel">Receptionist's ID #:</label>
+				<input type="number" name="inp4" id="inp4" placeholder="Example: 754802">
+				<label for="inp4" class="rightLabel">Required</label>
+			</div>
+			<div>
+				<label for="inp5" class="leftLabel">Receptionist's Phone #:</label>
+				<input type="text" name="inp5" id="inp5" placeholder="Example: 333-333-3333">
+				<label for="inp5" class="rightLabel">Required</label>
+			</div>
+			<div id="emailDiv">
+				<label for="inp6" id="emailLabel" class="leftLabel">Receptionist's Email:</label>
+				<input type="text" name="inp6" id="inp6" placeholder="Example: janedoe@hospital.com">
+			</div>
+			<div id="checkDiv">	
+				<input type="checkbox" id="check1" name="check1" value="yesEmail">	
+				<label for="check1" id="checkLabel">Check the box to request an email confirmation</label>
+			</div>
+			<div id="checkboxDiv">
+				<p>Select a Transaction<p>
+				<input type="checkbox" id="Search" name="Search" value="search" class="checkB">
+ 				<label for="Search" class="cLabel">Search a Recepionist's account</label>
+  				<input type="checkbox" id="Add" name="Add" value="add" class="checkB">
+  				<label for="Add" class="cLabel">Add a Receptionist's account</label>
+  				<input type="checkbox" id="Edit" name="Edit" value="edit" class="checkB">
+ 				<label for="Edit" class="cLabel">Edit a Receptionist's account</label>
+			</div>
+			<br>
+			<div id="submitreset">	
+				<input type="submit" class="sr">
+				<input type="reset" class="sr">
+			</div>
+		<form>
+	<body>
