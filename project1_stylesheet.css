@@ -71,6 +71,9 @@ div {
 #checkLabel {
 	display: inline;
 }
+#selectLabel {
+	display: inline;
+}
 #check1 {
 	float: center;
 	width: 150px;

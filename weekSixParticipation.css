@@ -1,0 +1,36 @@
+
+.show {
+	display: flex;
+	background-color: purple;
+	width: 280px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: white;
+	justify-content: center;
+	border-style: solid;
+	border-color: blue;
+	height: 50px;
+}
+.hide {	 
+	display: flex;
+        background-color: purple;
+        width: 280px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        color: white;
+        justify-content: center;
+        border-style: solid;
+        border-color: blue;
+        height: 50px;
+	visibility: hidden;
+}
+input[type=radio] {
+	appearance: none;
+	margin: 0;
+
+}
+label {
+	color: blue;
+	display: inline-block;
+}
+
